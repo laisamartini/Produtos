@@ -1,0 +1,88 @@
+/* templates/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #744b4b;
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+    color: #752525;
+    text-align: center;
+    
+}
+
+form {
+    background-color: #e9e9e9a2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    height: 850px;
+    margin-left: 200px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #752525;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Estilizando a tabela */
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 12px;
+}
+
+.table tr {
+    background-color: #9c5e5e; /* Cor de fundo dos cabeçalhos */
+    color: white; /* Cor do texto dos cabeçalhos */
+}
+
+.table tr:nth-child(even) {
+    background-color: #3f1010; /* Cor de fundo para linhas pares */
+}
+
+
+/* Estilizando o botão */
+.btn-primary {
+    background-color: #802727; /* Cor de fundo do botão */
+    border-color: #802727; /* Cor da borda do botão */
+}
+
+.btn-primary hover {
+    background-color: #501717; /* Cor de fundo do botão ao passar o mouse */
+    border-color: #501717; /* Cor da borda do botão ao passar o mouse */
+    
+}
